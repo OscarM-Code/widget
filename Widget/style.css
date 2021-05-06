@@ -1,0 +1,62 @@
+
+meteo-widget
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.meteo
+{
+    display: flex;
+    justify-content: center;
+    background-color: aqua;
+    background-repeat: no-repeat;
+    width: 50vw;
+    height: 50vh;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1vw;
+    color: white;
+}
+
+#ville
+{
+    margin-top: 1vw;
+    width: 10vw;
+    height: 4vh;
+    border-radius: 1vw;
+    text-align: center;
+    font-size: 1vw;
+}
+
+.enter
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    width: 50%;
+}
+
+.out
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    width: 50%;
+}
+
+#press
+{
+    background-color: #440f6d;
+    border-color: #440f6d;
+    color: #ffffff;
+    box-shadow: none;
+    width: 10vw;
+    height: 10vh;
+    border-radius: 2vw;
+    font-size: 2.5vw;
+}

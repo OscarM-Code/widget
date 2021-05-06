@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Widget</title>
+</head>
+<body>
+<section class="meteo">
+  <div class="enter">
+   <label for="ville">Où habitez vous ?</label>
+   <input id="ville" type="text" onkeypress="13">
+   <button id="press">OK</button>
+  </div>
+  <div class="out">
+   <img  id="image" src="" alt="image de meteo">
+   <h2 id="city"></h2>
+   <h3 id="temp"></h3>
+   <h3 id="desc"></h3>
+  </div> 
+
+   <!-- <meteo-widget units="metric" lang="fr" city="Besançon"></meteo-widget> -->
+
+</section>
+
+
+
+<script src="meteo_widget.js"></script>
+</body>
+</html>
