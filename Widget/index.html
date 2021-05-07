@@ -8,25 +8,44 @@
     <title>Widget</title>
 </head>
 <body>
+
+<header>
+  <section class="titre">
+    <img src="media/logo_w.png" alt="Logo W pour Widget">
+    <h1>W i d g e t &ensp; &ensp; I n f o</h1>
+  </section>
+  <ul>
+    <li><a href="#">Météo</a></li>
+    <li><a href="#"> Fête du jour</a></li>
+    <li><a href="#">Convertisseur</a></li>
+    <li><a href="#">Calculatrice</a></li>
+  </ul>
+</header>
+
+<h2>Widget Météo</h2>
+
 <section class="meteo">
   <div class="enter">
-   <label for="ville">Où habitez vous ?</label>
-   <input id="ville" type="text" onkeypress="13">
-   <button id="press">OK</button>
+    <label for="ville">Où habitez vous ?</label>
+    <input id="ville" type="text" onkeypress="13">
+    <button id="press">OK</button>
   </div>
   <div class="out">
-   <img  id="image" src="" alt="image de meteo">
-   <h2 id="city"></h2>
-   <h3 id="temp"></h3>
-   <h3 id="desc"></h3>
+    <img  id="image" src="" alt="">
+    <h2 id="city"></h2>
+    <h3 id="temp"></h3>
+    <h3 id="desc"></h3>
   </div> 
 
    <!-- <meteo-widget units="metric" lang="fr" city="Besançon"></meteo-widget> -->
 
 </section>
 
+<footer>
+  <p><a href="https://github.com/OscarM-Code" target="_blank">Oscar Millot</a></p>
+  <p>Copyright ©</p>
+</footer>
 
-
-<script src="meteo_widget.js"></script>
+<script src="meteo_widget_test.js"></script>
 </body>
 </html>
