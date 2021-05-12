@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="media/logo_w.png">
+    <title>Widget</title>
+</head>
+<body>
+
+<header>
+  <section class="titre">
+    <img src="media/logo_w.png" alt="Logo W pour Widget">
+    <h1>W i d g e t &ensp; &ensp; I n f o</h1>
+  </section>
+  <ul>
+    <li><a href="index.html">Météo</a></li>
+    <li><a href="fete.html"> Fête du jour</a></li>
+    <li><a href="converter.html">Convertisseur</a></li>
+    <li><a href="#">Calculatrice</a></li>
+  </ul>
+</header>
+
+<h2>Widget Calculatrice</h2>
+
+<section class="calculatrice">
+  <div class="contenu">
+  <div class="bouton">
+    <button class="button" id="un" onclick="afficher('1')">1</button>
+    <button class="button" id="deux" onclick="afficher('2')">2</button>
+    <button class="button" id="trois" onclick="afficher('2')">3</button>
+    <button class="buttonn" id="plus" onclick="afficher('+')">+</button>
+    <button class="button" id="quatre" onclick="afficher('4')">4</button>
+    <button class="button" id="cinq" onclick="afficher('5')">5</button>
+    <button class="button" id="six" onclick="afficher('6')">6</button>
+    <button class="buttonn" id="moins" onclick="afficher('-')">-</button>
+    <button class="button" id="sept" onclick="afficher('7')">7</button>
+    <button class="button" id="huit" onclick="afficher('8')">8</button>
+    <button class="button" id="neuf" onclick="afficher('9')">9</button>
+    <button class="buttonn" id="multiplier" onclick="afficher('*')">x</button>
+    <button class="buttonnn" id="clear" onclick="effacer()">C</button>
+    <button class="button" id="zero" onclick="afficher('0')">0</button>
+    <button class="buttonn" id="decimal" onclick="afficher('.')">.</button>
+    <button class="buttonn" id="diviser" onclick="afficher('/')">/</button>
+  </div>
+  </div>
+  <div class="result">
+    <h2>Résultat</h2>
+  <div class="bt">
+    <button class="button" id="enter" onclick="calculer()">=</button> 
+  <div class="fond">
+    <input id="resultat"></input>
+  </div>
+  </div>
+</section>
+
+<footer>
+  <p><a href="https://github.com/OscarM-Code" target="_blank">Oscar Millot</a></p>
+  <p>Copyright ©</p>
+</footer>
+
+<script src="calcul_widget.js"></script>
+</body>
+</html>

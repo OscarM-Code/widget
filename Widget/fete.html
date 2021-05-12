@@ -16,37 +16,22 @@
     <h1>W i d g e t &ensp; &ensp; I n f o</h1>
   </section>
   <ul>
-    <li><a href="#">Météo</a></li>
-    <li><a href="fete.html"> Fête du jour</a></li>
+    <li><a href="index.html">Météo</a></li>
+    <li><a href="#"> Fête du jour</a></li>
     <li><a href="converter.html">Convertisseur</a></li>
     <li><a href="calcul.html">Calculatrice</a></li>
   </ul>
 </header>
 
-<h2>Widget Météo</h2>
-
-<section class="meteo">
-  <div class="enter">
-    <label for="ville">Où habitez vous ?</label>
-    <input id="ville" type="text" onkeypress="13">
-    <button id="press">OK</button>
-  </div>
-  <div class="out">
-  <div class="outin">
-    <img  id="image" src="" alt="">
-    <h2 id="city"></h2>
-    <h3 id="temp"></h3>
-    <h3 id="desc"></h3>
-  </div>
-  </div> 
-
-</section>
+<h2>Widget Fête du jour</h2>
+<button class="bfete" onclick="ephemeride_du_jour()">Clickez ici pour connaîte la fête du jour !</button>
+<h2 id="fetej"></h2>
 
 <footer>
   <p><a href="https://github.com/OscarM-Code" target="_blank">Oscar Millot</a></p>
   <p>Copyright ©</p>
 </footer>
 
-<script src="meteo_widget.js"></script>
+<script src="fete_widget.js"></script>
 </body>
 </html>
